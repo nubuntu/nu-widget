@@ -22,13 +22,14 @@ exports.widget = function (widget_name,base) {
                     options : options,
                 });
                 exports.nuWidget_objects[widget_id]._create();
+                return exports.nuWidget_objects[widget_id];
                 break;
             case 'string':
                 if(typeof exports.nuWidget_objects[widget_id]!='undefined')
                     exports.nuWidget_objects[widget_id][options].apply(exports.nuWidget_objects[widget_id],args);
                 break;
         }
-        return this;
+        return exports.nuWidget_objects[widget_id];
     }
 }
 

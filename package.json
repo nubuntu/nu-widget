@@ -1,7 +1,7 @@
 {
-  "name": "nuwidget",
+  "name": "nu-widget",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "nu-widget.js",
   "scripts": {},
   "author": "Noercholis <email@noercholis.com> (http://noercholis.com)",
   "license": "GPL-3.0",
@@ -11,11 +11,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nubuntu/nuwidget.git"
+    "url": "git+https://github.com/nubuntu/nu-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/nubuntu/nuwidget/issues"
+    "url": "https://github.com/nubuntu/nu-widget/issues"
   },
-  "homepage": "https://github.com/nubuntu/nuwidget#readme",
+  "homepage": "https://github.com/nubuntu/nu-widget#readme",
   "description": ""
 }
